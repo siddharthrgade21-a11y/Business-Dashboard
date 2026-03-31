@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CEO Business Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- REGISTER BOX -->
+    <div id="registerBox" class="box">
+        <h2>Create Account</h2>
+        <input type="text" id="newUser" placeholder="Create Username">
+        <input type="password" id="newPass" placeholder="Create Password">
+        <button onclick="register()">Create Account</button>
+    </div>
+
+    <!-- LOGIN BOX -->
+    <div id="loginBox" class="box" style="display:none;">
+        <h2>Login</h2>
+        <input type="text" id="loginUser" placeholder="Username">
+        <input type="password" id="loginPass" placeholder="Password">
+        <button onclick="login()">Login</button>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div id="dashboard" style="display:none;">
+
+        <h1>NOVAREAL BUSINESS CONTROL PANEL</h1>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Total Profit</h3>
+                <p>₹8,50,000</p>
+            </div>
+
+            <div class="card">
+                <h3>Monthly Growth</h3>
+                <p>+18%</p>
+            </div>
+
+            <div class="card">
+                <h3>Active Projects</h3>
+                <p>12</p>
+            </div>
+
+            <div class="card">
+                <h3>New Clients</h3>
+                <p>27</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
